@@ -4,9 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -24,21 +22,20 @@
                         <rect key="frame" x="3" y="0.0" width="321" height="130"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="redraw" semanticContentAttribute="spatial" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="artist1" translatesAutoresizingMaskIntoConstraints="NO" id="Mng-AJ-NSw">
-                                <rect key="frame" x="0.0" y="0.0" width="140" height="130"/>
+                                <rect key="frame" x="0.0" y="0.0" width="130" height="130"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="Mng-AJ-NSw" secondAttribute="height" multiplier="14:13" id="6dM-Wa-swX"/>
                                     <constraint firstAttribute="height" constant="130" id="FeO-FD-gIO"/>
                                     <constraint firstAttribute="width" constant="130" id="f16-pt-Ihm"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Hunters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tuB-sE-NWv">
-                                <rect key="frame" x="164" y="16" width="133" height="23"/>
+                                <rect key="frame" x="154" y="16" width="143" height="23"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YgY-Ld-VUY">
-                                <rect key="frame" x="164" y="43" width="133" height="47"/>
+                                <rect key="frame" x="154" y="43" width="143" height="31.5"/>
                                 <string key="text">Indie Folk band hailing 
 from Leeds</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>

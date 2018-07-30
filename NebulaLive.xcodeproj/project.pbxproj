@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B916E482210F80250071D016 /* VenueModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B916E481210F80250071D016 /* VenueModel.swift */; };
+		B916E494210FAE330071D016 /* VenueFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B916E493210FAE330071D016 /* VenueFeedViewController.swift */; };
 		B9D121EB210F3A6700B10566 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D121EA210F3A6700B10566 /* AppDelegate.swift */; };
 		B9D121ED210F3A6700B10566 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D121EC210F3A6700B10566 /* ViewController.swift */; };
 		B9D121F0210F3A6700B10566 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9D121EE210F3A6700B10566 /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 
 /* Begin PBXFileReference section */
 		B916E481210F80250071D016 /* VenueModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueModel.swift; sourceTree = "<group>"; };
+		B916E493210FAE330071D016 /* VenueFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueFeedViewController.swift; sourceTree = "<group>"; };
 		B9D121E7210F3A6700B10566 /* NebulaLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NebulaLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9D121EA210F3A6700B10566 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9D121EC210F3A6700B10566 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				B9D1221F210F433100B10566 /* FeedCollectionViewCell.swift */,
 				B9D12220210F433100B10566 /* FeedCollectionViewCell.xib */,
 				B9D12223210F458400B10566 /* ArtistFeedViewController.swift */,
+				B916E493210FAE330071D016 /* VenueFeedViewController.swift */,
 				B9D12225210F756300B10566 /* MockData.swift */,
 				B9D12227210F758B00B10566 /* ArtistModel.swift */,
 				B916E481210F80250071D016 /* VenueModel.swift */,
@@ -283,6 +286,7 @@
 			files = (
 				B9D121ED210F3A6700B10566 /* ViewController.swift in Sources */,
 				B9D12224210F458400B10566 /* ArtistFeedViewController.swift in Sources */,
+				B916E494210FAE330071D016 /* VenueFeedViewController.swift in Sources */,
 				B9D121EB210F3A6700B10566 /* AppDelegate.swift in Sources */,
 				B916E482210F80250071D016 /* VenueModel.swift in Sources */,
 				B9D12221210F433100B10566 /* FeedCollectionViewCell.swift in Sources */,

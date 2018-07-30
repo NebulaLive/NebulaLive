@@ -17,9 +17,9 @@ public struct MockData {
         ]
     
     internal static let Venues: [VenueModel] = [
-        VenueModel(name: "Night and Day", desc: "The home of live music", image: "artist1", rating: 2, distance: 2),
-        VenueModel(name: "Dive, NQ", desc: "Food, Drink and Music", image: "artist2", rating: 2, distance: 2),
-        VenueModel(name: "Guilty", desc: "Live music and beer", image: "artist3", rating: 2, distance: 2),
-        VenueModel(name: "Cooper Hall", desc: "Underground beer hall", image: "artist4", rating: 3, distance: 3)
+        VenueModel(name: "Night and Day", desc: "The home of live music", image: "venue1", rating: 2, distance: 2),
+        VenueModel(name: "Dive, NQ", desc: "Food, Drink and Music", image: "venue2", rating: 2, distance: 2),
+        VenueModel(name: "Guilty", desc: "Live music and beer", image: "venue3", rating: 2, distance: 2),
+        VenueModel(name: "Cooper Hall", desc: "Underground beer hall", image: "venue4", rating: 3, distance: 3)
     ]
 }
