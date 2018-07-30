@@ -5,12 +5,27 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.006111">
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.001584">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: match" time="20.929649">
+      <testcase classname="fastlane.lanes" name="1: increment_build_number" time="1.75662">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="2: gym" time="85.137227">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="3: read_changelog" time="0.003658">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="4: hockey" time="15.525344">
         
       </testcase>
     
