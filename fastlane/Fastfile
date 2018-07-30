@@ -1,0 +1,99 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+  lane :match_alpha do
+    match(git_url: "https://github.com/eeu479/NebulaLive-Certificates.git",
+            type: "adhoc",
+            app_identifier: ["com.kylethomas.NebulaLive-Alpha"],
+            force_for_new_devices: true,
+            readonly: true)
+    match(git_url: "https://github.com/eeu479/NebulaLive-Certificates.git",
+            type: "development",
+            app_identifier: ["com.kylethomas.NebulaLive-Alpha"],
+            force_for_new_devices: true,
+            readonly: true)
+  end
+
+    lane :match_beta do
+        match(git_url: "https://github.com/eeu479/NebulaLive-Certificates.git",
+          type: "adhoc",
+          app_identifier: ["com.kylethomas.NebulaLive-Beta"],
+          force_for_new_devices: true,
+          readonly: true)
+
+        match(git_url: "https://github.com/eeu479/NebulaLive-Certificates.git",
+            type: "development",
+            app_identifier: ["com.kylethomas.NebulaLive-Beta"],
+            force_for_new_devices: true,
+            readonly: true)
+
+        match(git_url: "https://github.com/eeu479/NebulaLive-Certificates.git",
+            type: "appstore",
+            app_identifier: ["com.kylethomas.NebulaLive-Beta"],
+            force_for_new_devices: true,
+            readonly: true)
+    end
+
+    lane :match_appstore do
+        match(git_url: "https://github.com/eeu479/NebulaLive-Certificates.git",
+            type: "appstore",
+            app_identifier: "com.kylethomas.NebulaLive",
+            force_for_new_devices: true,
+            readonly: false)
+    end
+
+    lane :alpha do |options|
+        if options[:build_number]
+            increment_build_number_in_plist(target: 'Alpha', build_number: options[:build_number])
+        else
+            increment_build_number(
+                xcodeproj: 'NebulaLive.xcodeproj'
+            )
+        end
+
+        gym(scheme: 'Alpha', export_method: 'ad-hoc', configuration: 'Alpha Release')
+        hockey(
+          api_token: "c751c715a6c44e81bdefa2fdd2c1c924",
+          notes: read_changelog(
+                changelog_path: './CHANGELOG.md',
+                section_identifier: '[Unreleased]',
+                excluded_markdown_elements: '["###"]'
+            ),
+        )
+        
+    end
+
+    desc "Submit a new Beta Build to Apple TestFlight"
+    lane :beta do
+        badge(dark: true)
+        gym(scheme: 'Beta', configuration: 'Beta Release')
+
+        pilot(skip_waiting_for_build_processing: true)
+
+        increment_build_number(
+          build_number: latest_testflight_build_number + 1,
+          xcodeproj: 'NebulaLive-iOS.xcodeproj'
+        )
+        end
+
+    desc "Deploy a new version to the App Store"
+    lane :release do
+        match_appstore
+        # snapshot
+        gym(scheme: 'Production', configuration: 'Production Release')
+        deliver(force: true)
+        # frameit
+    end
+
+end
