@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02339967438A51196F1CE3CC /* Pods_NebulaLiveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B3D46BD67740C2E533654E0 /* Pods_NebulaLiveTests.framework */; };
 		B916E482210F80250071D016 /* VenueModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B916E481210F80250071D016 /* VenueModel.swift */; };
 		B916E494210FAE330071D016 /* VenueFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B916E493210FAE330071D016 /* VenueFeedViewController.swift */; };
 		B9D121EB210F3A6700B10566 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D121EA210F3A6700B10566 /* AppDelegate.swift */; };
@@ -23,6 +24,8 @@
 		B9D12224210F458400B10566 /* ArtistFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D12223210F458400B10566 /* ArtistFeedViewController.swift */; };
 		B9D12226210F756300B10566 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D12225210F756300B10566 /* MockData.swift */; };
 		B9D12228210F758B00B10566 /* ArtistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D12227210F758B00B10566 /* ArtistModel.swift */; };
+		BB384D4C9D523A816B38E47C /* Pods_NebulaLiveUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37EA849071EB98B9FD01866B /* Pods_NebulaLiveUITests.framework */; };
+		F47B8D87BC7F7DFB027F6495 /* Pods_NebulaLive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5274E36423C9B66976B7263 /* Pods_NebulaLive.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		032C64CC6FECCA71C6140398 /* Pods-NebulaLiveTests.beta debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NebulaLiveTests.beta debug.xcconfig"; path = "Pods/Target Support Files/Pods-NebulaLiveTests/Pods-NebulaLiveTests.beta debug.xcconfig"; sourceTree = "<group>"; };
+		202B0EE46345BF0EBAF2E845 /* Pods-NebulaLiveUITests.beta release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NebulaLiveUITests.beta release.xcconfig"; path = "Pods/Target Support Files/Pods-NebulaLiveUITests/Pods-NebulaLiveUITests.beta release.xcconfig"; sourceTree = "<group>"; };
+		20ED6CB8B882113C2B837517 /* Pods-NebulaLiveUITests.alpha release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NebulaLiveUITests.alpha release.xcconfig"; path = "Pods/Target Support Files/Pods-NebulaLiveUITests/Pods-NebulaLiveUITests.alpha release.xcconfig"; sourceTree = "<group>"; };
+		31933BCD41D63AF6A24FA5A9 /* Pods-NebulaLiveTests.production release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NebulaLiveTests.production release.xcconfig"; path = "Pods/Target Support Files/Pods-NebulaLiveTests/Pods-NebulaLiveTests.production release.xcconfig"; sourceTree = "<group>"; };
+		37EA849071EB98B9FD01866B /* Pods_NebulaLiveUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NebulaLiveUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B3D46BD67740C2E533654E0 /* Pods_NebulaLiveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NebulaLiveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CA066C638AA959BB6101BF3 /* Pods-NebulaLiveTests.alpha debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NebulaLiveTests.alpha debug.xcconfig"; path = "Pods/Target Support Files/Pods-NebulaLiveTests/Pods-NebulaLiveTests.alpha debug.xcconfig"; sourceTree = "<group>"; };
+		6184B8D88C59110104DD66EC /* Pods-NebulaLive.alpha debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NebulaLive.alpha debug.xcconfig"; path = "Pods/Target Support Files/Pods-NebulaLive/Pods-NebulaLive.alpha debug.xcconfig"; sourceTree = "<group>"; };
+		6C7068EBF322D1B289D5EC9E /* Pods-NebulaLiveUITests.alpha debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NebulaLiveUITests.alpha debug.xcconfig"; path = "Pods/Target Support Files/Pods-NebulaLiveUITests/Pods-NebulaLiveUITests.alpha debug.xcconfig"; sourceTree = "<group>"; };
+		6CF4FE969FE7F2A6FE46E728 /* Pods-NebulaLiveTests.beta release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NebulaLiveTests.beta release.xcconfig"; path = "Pods/Target Support Files/Pods-NebulaLiveTests/Pods-NebulaLiveTests.beta release.xcconfig"; sourceTree = "<group>"; };
+		8032139C3702AF7628B42C27 /* Pods-NebulaLive.beta debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NebulaLive.beta debug.xcconfig"; path = "Pods/Target Support Files/Pods-NebulaLive/Pods-NebulaLive.beta debug.xcconfig"; sourceTree = "<group>"; };
+		880AA44662771DF104825EA0 /* Pods-NebulaLiveTests.alpha release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NebulaLiveTests.alpha release.xcconfig"; path = "Pods/Target Support Files/Pods-NebulaLiveTests/Pods-NebulaLiveTests.alpha release.xcconfig"; sourceTree = "<group>"; };
+		8A641AAC48A8CA1B3228B0BB /* Pods-NebulaLive.alpha release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NebulaLive.alpha release.xcconfig"; path = "Pods/Target Support Files/Pods-NebulaLive/Pods-NebulaLive.alpha release.xcconfig"; sourceTree = "<group>"; };
+		8BE6F56E9501F78BAFBDFB05 /* Pods-NebulaLiveTests.production debug .xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NebulaLiveTests.production debug .xcconfig"; path = "Pods/Target Support Files/Pods-NebulaLiveTests/Pods-NebulaLiveTests.production debug .xcconfig"; sourceTree = "<group>"; };
+		9C07835EFA3D47F5FB0C251D /* Pods-NebulaLive.production debug .xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NebulaLive.production debug .xcconfig"; path = "Pods/Target Support Files/Pods-NebulaLive/Pods-NebulaLive.production debug .xcconfig"; sourceTree = "<group>"; };
+		B71C8AFCB97AECFE97FD33EF /* Pods-NebulaLiveUITests.production debug .xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NebulaLiveUITests.production debug .xcconfig"; path = "Pods/Target Support Files/Pods-NebulaLiveUITests/Pods-NebulaLiveUITests.production debug .xcconfig"; sourceTree = "<group>"; };
 		B916E481210F80250071D016 /* VenueModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueModel.swift; sourceTree = "<group>"; };
 		B916E493210FAE330071D016 /* VenueFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueFeedViewController.swift; sourceTree = "<group>"; };
 		B9D121E7210F3A6700B10566 /* NebulaLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NebulaLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +84,11 @@
 		B9D12223210F458400B10566 /* ArtistFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistFeedViewController.swift; sourceTree = "<group>"; };
 		B9D12225210F756300B10566 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		B9D12227210F758B00B10566 /* ArtistModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistModel.swift; sourceTree = "<group>"; };
+		C736CD94676C1ECD5580C132 /* Pods-NebulaLiveUITests.beta debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NebulaLiveUITests.beta debug.xcconfig"; path = "Pods/Target Support Files/Pods-NebulaLiveUITests/Pods-NebulaLiveUITests.beta debug.xcconfig"; sourceTree = "<group>"; };
+		D34B99AB97E84AC81653A0B6 /* Pods-NebulaLive.beta release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NebulaLive.beta release.xcconfig"; path = "Pods/Target Support Files/Pods-NebulaLive/Pods-NebulaLive.beta release.xcconfig"; sourceTree = "<group>"; };
+		DA4EF037156FDF07DF0E8333 /* Pods-NebulaLiveUITests.production release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NebulaLiveUITests.production release.xcconfig"; path = "Pods/Target Support Files/Pods-NebulaLiveUITests/Pods-NebulaLiveUITests.production release.xcconfig"; sourceTree = "<group>"; };
+		EE220F0F0494E7B86673600F /* Pods-NebulaLive.production release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NebulaLive.production release.xcconfig"; path = "Pods/Target Support Files/Pods-NebulaLive/Pods-NebulaLive.production release.xcconfig"; sourceTree = "<group>"; };
+		F5274E36423C9B66976B7263 /* Pods_NebulaLive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NebulaLive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F47B8D87BC7F7DFB027F6495 /* Pods_NebulaLive.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02339967438A51196F1CE3CC /* Pods_NebulaLiveTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB384D4C9D523A816B38E47C /* Pods_NebulaLiveUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +126,8 @@
 				B9D12201210F3A6800B10566 /* NebulaLiveTests */,
 				B9D1220C210F3A6800B10566 /* NebulaLiveUITests */,
 				B9D121E8210F3A6700B10566 /* Products */,
+				E03049914BFD47B7711A9A2A /* Pods */,
+				D485A5E4A111D3571BABA0AD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,6 +181,41 @@
 			path = NebulaLiveUITests;
 			sourceTree = "<group>";
 		};
+		D485A5E4A111D3571BABA0AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5274E36423C9B66976B7263 /* Pods_NebulaLive.framework */,
+				4B3D46BD67740C2E533654E0 /* Pods_NebulaLiveTests.framework */,
+				37EA849071EB98B9FD01866B /* Pods_NebulaLiveUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E03049914BFD47B7711A9A2A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6184B8D88C59110104DD66EC /* Pods-NebulaLive.alpha debug.xcconfig */,
+				8032139C3702AF7628B42C27 /* Pods-NebulaLive.beta debug.xcconfig */,
+				9C07835EFA3D47F5FB0C251D /* Pods-NebulaLive.production debug .xcconfig */,
+				D34B99AB97E84AC81653A0B6 /* Pods-NebulaLive.beta release.xcconfig */,
+				8A641AAC48A8CA1B3228B0BB /* Pods-NebulaLive.alpha release.xcconfig */,
+				EE220F0F0494E7B86673600F /* Pods-NebulaLive.production release.xcconfig */,
+				4CA066C638AA959BB6101BF3 /* Pods-NebulaLiveTests.alpha debug.xcconfig */,
+				032C64CC6FECCA71C6140398 /* Pods-NebulaLiveTests.beta debug.xcconfig */,
+				8BE6F56E9501F78BAFBDFB05 /* Pods-NebulaLiveTests.production debug .xcconfig */,
+				6CF4FE969FE7F2A6FE46E728 /* Pods-NebulaLiveTests.beta release.xcconfig */,
+				880AA44662771DF104825EA0 /* Pods-NebulaLiveTests.alpha release.xcconfig */,
+				31933BCD41D63AF6A24FA5A9 /* Pods-NebulaLiveTests.production release.xcconfig */,
+				6C7068EBF322D1B289D5EC9E /* Pods-NebulaLiveUITests.alpha debug.xcconfig */,
+				C736CD94676C1ECD5580C132 /* Pods-NebulaLiveUITests.beta debug.xcconfig */,
+				B71C8AFCB97AECFE97FD33EF /* Pods-NebulaLiveUITests.production debug .xcconfig */,
+				202B0EE46345BF0EBAF2E845 /* Pods-NebulaLiveUITests.beta release.xcconfig */,
+				20ED6CB8B882113C2B837517 /* Pods-NebulaLiveUITests.alpha release.xcconfig */,
+				DA4EF037156FDF07DF0E8333 /* Pods-NebulaLiveUITests.production release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9D12212210F3A6800B10566 /* Build configuration list for PBXNativeTarget "NebulaLive" */;
 			buildPhases = (
+				C46B831257312D6F52B52B59 /* [CP] Check Pods Manifest.lock */,
 				B9D121E3210F3A6600B10566 /* Sources */,
 				B9D121E4210F3A6600B10566 /* Frameworks */,
 				B9D121E5210F3A6600B10566 /* Resources */,
+				1F24AC93CDC86D3C862208F9 /* [CP] Embed Pods Frameworks */,
+				C29D7B795A643AC86E2FB1CE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,9 +243,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9D12215210F3A6800B10566 /* Build configuration list for PBXNativeTarget "NebulaLiveTests" */;
 			buildPhases = (
+				6D19B7417EEFBAF821414B72 /* [CP] Check Pods Manifest.lock */,
 				B9D121FA210F3A6800B10566 /* Sources */,
 				B9D121FB210F3A6800B10566 /* Frameworks */,
 				B9D121FC210F3A6800B10566 /* Resources */,
+				F6E5DB7DC277AD8446F5895A /* [CP] Embed Pods Frameworks */,
+				EAA2ADED55DE3C1A12C8E209 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,9 +264,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9D12218210F3A6800B10566 /* Build configuration list for PBXNativeTarget "NebulaLiveUITests" */;
 			buildPhases = (
+				ACA1CF535E7E8CB366FCEEB2 /* [CP] Check Pods Manifest.lock */,
 				B9D12205210F3A6800B10566 /* Sources */,
 				B9D12206210F3A6800B10566 /* Frameworks */,
 				B9D12207210F3A6800B10566 /* Resources */,
+				6F4C8021F29E066D5BD2DB4D /* [CP] Embed Pods Frameworks */,
+				F7BB041DFC2F5F7F3B001DCF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -278,6 +351,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F24AC93CDC86D3C862208F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NebulaLive/Pods-NebulaLive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D19B7417EEFBAF821414B72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6F4C8021F29E066D5BD2DB4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NebulaLiveUITests/Pods-NebulaLiveUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACA1CF535E7E8CB366FCEEB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C29D7B795A643AC86E2FB1CE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NebulaLive/Pods-NebulaLive-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C46B831257312D6F52B52B59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EAA2ADED55DE3C1A12C8E209 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NebulaLiveTests/Pods-NebulaLiveTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6E5DB7DC277AD8446F5895A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NebulaLiveTests/Pods-NebulaLiveTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7BB041DFC2F5F7F3B001DCF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NebulaLiveUITests/Pods-NebulaLiveUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B9D121E3210F3A6600B10566 /* Sources */ = {
@@ -412,6 +623,7 @@
 		};
 		B916E484210F9C710071D016 /* Beta Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D34B99AB97E84AC81653A0B6 /* Pods-NebulaLive.beta release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
@@ -436,6 +648,7 @@
 		};
 		B916E485210F9C710071D016 /* Beta Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CF4FE969FE7F2A6FE46E728 /* Pods-NebulaLiveTests.beta release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -457,6 +670,7 @@
 		};
 		B916E486210F9C710071D016 /* Beta Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 202B0EE46345BF0EBAF2E845 /* Pods-NebulaLiveUITests.beta release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +753,7 @@
 		};
 		B916E488210FA4B90071D016 /* Alpha Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A641AAC48A8CA1B3228B0BB /* Pods-NebulaLive.alpha release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
@@ -563,6 +778,7 @@
 		};
 		B916E489210FA4B90071D016 /* Alpha Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 880AA44662771DF104825EA0 /* Pods-NebulaLiveTests.alpha release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -584,6 +800,7 @@
 		};
 		B916E48A210FA4B90071D016 /* Alpha Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20ED6CB8B882113C2B837517 /* Pods-NebulaLiveUITests.alpha release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -666,6 +883,7 @@
 		};
 		B916E48C210FA4C10071D016 /* Beta Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8032139C3702AF7628B42C27 /* Pods-NebulaLive.beta debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
@@ -690,6 +908,7 @@
 		};
 		B916E48D210FA4C10071D016 /* Beta Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 032C64CC6FECCA71C6140398 /* Pods-NebulaLiveTests.beta debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -711,6 +930,7 @@
 		};
 		B916E48E210FA4C10071D016 /* Beta Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C736CD94676C1ECD5580C132 /* Pods-NebulaLiveUITests.beta debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -793,6 +1013,7 @@
 		};
 		B916E490210FA4CA0071D016 /* Production Debug  */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C07835EFA3D47F5FB0C251D /* Pods-NebulaLive.production debug .xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
@@ -817,6 +1038,7 @@
 		};
 		B916E491210FA4CA0071D016 /* Production Debug  */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BE6F56E9501F78BAFBDFB05 /* Pods-NebulaLiveTests.production debug .xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -838,6 +1060,7 @@
 		};
 		B916E492210FA4CA0071D016 /* Production Debug  */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B71C8AFCB97AECFE97FD33EF /* Pods-NebulaLiveUITests.production debug .xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -976,6 +1199,7 @@
 		};
 		B9D12213210F3A6800B10566 /* Alpha Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6184B8D88C59110104DD66EC /* Pods-NebulaLive.alpha debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1000,6 +1224,7 @@
 		};
 		B9D12214210F3A6800B10566 /* Production Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE220F0F0494E7B86673600F /* Pods-NebulaLive.production release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
@@ -1024,6 +1249,7 @@
 		};
 		B9D12216210F3A6800B10566 /* Alpha Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CA066C638AA959BB6101BF3 /* Pods-NebulaLiveTests.alpha debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1045,6 +1271,7 @@
 		};
 		B9D12217210F3A6800B10566 /* Production Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31933BCD41D63AF6A24FA5A9 /* Pods-NebulaLiveTests.production release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1066,6 +1293,7 @@
 		};
 		B9D12219210F3A6800B10566 /* Alpha Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C7068EBF322D1B289D5EC9E /* Pods-NebulaLiveUITests.alpha debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1086,6 +1314,7 @@
 		};
 		B9D1221A210F3A6800B10566 /* Production Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA4EF037156FDF07DF0E8333 /* Pods-NebulaLiveUITests.production release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
