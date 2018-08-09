@@ -24,6 +24,12 @@ class ArtistFeedViewController: UIViewController {
     }
 }
 
+extension ArtistFeedViewController: UICollectionViewDelegate {
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+    }
+}
+
 extension ArtistFeedViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return MockData.Artists.count

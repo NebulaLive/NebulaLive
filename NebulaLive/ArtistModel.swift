@@ -8,9 +8,9 @@
 
 import Foundation
 import RealmSwift
-import Realm
 
-class ArtistModel: Object {
+
+class ArtistModel: NSObject {
     @objc dynamic var name: String = ""
     @objc dynamic var desc: String = ""
     @objc dynamic var image: String = ""
@@ -26,16 +26,11 @@ class ArtistModel: Object {
         super.init()
     }
     
-    
-    required init() {
-        fatalError("init() has not been implemented")
-    }
-    
-    required init(realm: RLMRealm, schema: RLMObjectSchema) {
-        fatalError("init(realm:schema:) has not been implemented")
-    }
-    
-    required init(value: Any, schema: RLMSchema) {
-        fatalError("init(value:schema:) has not been implemented")
-    }
+//    required init(realm: RLMRealm, schema: RLMObjectSchema) {
+//        fatalError("init(realm:schema:) has not been implemented")
+//    }
+//    
+//    required init(value: Any, schema: RLMSchema) {
+//        fatalError("init(value:schema:) has not been implemented")
+//    }
 }

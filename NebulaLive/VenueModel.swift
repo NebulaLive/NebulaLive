@@ -10,7 +10,7 @@ import Foundation
 import Realm
 import RealmSwift
 
-class VenueModel: Object {
+class VenueModel: NSObject {
     @objc dynamic var name: String = ""
     @objc dynamic var desc: String = ""
     @objc dynamic var image: String = ""
@@ -27,15 +27,15 @@ class VenueModel: Object {
     }
     
     
-    required init() {
-        fatalError("init() has not been implemented")
-    }
-    
-    required init(realm: RLMRealm, schema: RLMObjectSchema) {
-        fatalError("init(realm:schema:) has not been implemented")
-    }
-    
-    required init(value: Any, schema: RLMSchema) {
-        fatalError("init(value:schema:) has not been implemented")
-    }
+//    required init() {
+//        fatalError("init() has not been implemented")
+//    }
+//    
+//    required init(realm: RLMRealm, schema: RLMObjectSchema) {
+//        fatalError("init(realm:schema:) has not been implemented")
+//    }
+//    
+//    required init(value: Any, schema: RLMSchema) {
+//        fatalError("init(value:schema:) has not been implemented")
+//    }
 }
