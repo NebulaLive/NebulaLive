@@ -16,8 +16,6 @@ class VenueFeedViewController: UIViewController {
         super.viewDidLoad()
         self.collectionView.register(UINib(nibName: "FeedCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "FeedCell")
         self.collectionView.dataSource = self
-    }
-    override func viewDidLayoutSubviews() {
         let layout = UICollectionViewFlowLayout()
         layout.itemSize = CGSize(width: self.collectionView.bounds.size.width, height: 130)
         self.collectionView.setCollectionViewLayout(layout, animated: false)
