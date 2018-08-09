@@ -1,5 +1,5 @@
 //
-//  TestTabBarControlle.swift
+//  TabBarController.swift
 //  NebulaLive
 //
 //  Created by Kyle Thomas on 30/07/2018.
@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class TestTabBarController: UITabBarController {
+class TabBarController: UITabBarController {
     
     override func viewDidLoad() {
         super.viewDidLoad()

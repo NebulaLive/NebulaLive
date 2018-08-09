@@ -13,15 +13,15 @@
 		B92D1082211CC29800734029 /* UpcomingShowsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92D1081211CC29800734029 /* UpcomingShowsViewController.swift */; };
 		B92D1085211CC5DC00734029 /* UpcomingShowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92D1083211CC5DC00734029 /* UpcomingShowCell.swift */; };
 		B92D1086211CC5DC00734029 /* UpcomingShowCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B92D1084211CC5DC00734029 /* UpcomingShowCell.xib */; };
+		B92D109C211CD00300734029 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92D109B211CD00300734029 /* Config.swift */; };
 		B9D121EB210F3A6700B10566 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D121EA210F3A6700B10566 /* AppDelegate.swift */; };
-		B9D121ED210F3A6700B10566 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D121EC210F3A6700B10566 /* ViewController.swift */; };
 		B9D121F0210F3A6700B10566 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9D121EE210F3A6700B10566 /* Main.storyboard */; };
 		B9D121F3210F3A6700B10566 /* NebulaLive.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B9D121F1210F3A6700B10566 /* NebulaLive.xcdatamodeld */; };
 		B9D121F5210F3A6800B10566 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9D121F4210F3A6800B10566 /* Assets.xcassets */; };
 		B9D121F8210F3A6800B10566 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9D121F6210F3A6800B10566 /* LaunchScreen.storyboard */; };
 		B9D12203210F3A6800B10566 /* NebulaLiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D12202210F3A6800B10566 /* NebulaLiveTests.swift */; };
 		B9D1220E210F3A6800B10566 /* NebulaLiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D1220D210F3A6800B10566 /* NebulaLiveUITests.swift */; };
-		B9D1221C210F3ED500B10566 /* TestTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D1221B210F3ED500B10566 /* TestTabBarController.swift */; };
+		B9D1221C210F3ED500B10566 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D1221B210F3ED500B10566 /* TabBarController.swift */; };
 		B9D12221210F433100B10566 /* FeedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D1221F210F433100B10566 /* FeedCollectionViewCell.swift */; };
 		B9D12222210F433100B10566 /* FeedCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9D12220210F433100B10566 /* FeedCollectionViewCell.xib */; };
 		B9D12224210F458400B10566 /* ArtistFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D12223210F458400B10566 /* ArtistFeedViewController.swift */; };
@@ -70,9 +70,9 @@
 		B92D1081211CC29800734029 /* UpcomingShowsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingShowsViewController.swift; sourceTree = "<group>"; };
 		B92D1083211CC5DC00734029 /* UpcomingShowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingShowCell.swift; sourceTree = "<group>"; };
 		B92D1084211CC5DC00734029 /* UpcomingShowCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpcomingShowCell.xib; sourceTree = "<group>"; };
+		B92D109B211CD00300734029 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		B9D121E7210F3A6700B10566 /* NebulaLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NebulaLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9D121EA210F3A6700B10566 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B9D121EC210F3A6700B10566 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B9D121EF210F3A6700B10566 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B9D121F2210F3A6700B10566 /* NebulaLive.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NebulaLive.xcdatamodel; sourceTree = "<group>"; };
 		B9D121F4210F3A6800B10566 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -84,7 +84,7 @@
 		B9D12209210F3A6800B10566 /* NebulaLiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NebulaLiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9D1220D210F3A6800B10566 /* NebulaLiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NebulaLiveUITests.swift; sourceTree = "<group>"; };
 		B9D1220F210F3A6800B10566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B9D1221B210F3ED500B10566 /* TestTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTabBarController.swift; sourceTree = "<group>"; };
+		B9D1221B210F3ED500B10566 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		B9D1221F210F433100B10566 /* FeedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCollectionViewCell.swift; sourceTree = "<group>"; };
 		B9D12220210F433100B10566 /* FeedCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedCollectionViewCell.xib; sourceTree = "<group>"; };
 		B9D12223210F458400B10566 /* ArtistFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistFeedViewController.swift; sourceTree = "<group>"; };
@@ -125,6 +125,145 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B92D1087211CCE8C00734029 /* ArtistFeed */ = {
+			isa = PBXGroup;
+			children = (
+				B92D1089211CCEA000734029 /* ViewModel */,
+				B92D1088211CCE9A00734029 /* View */,
+			);
+			path = ArtistFeed;
+			sourceTree = "<group>";
+		};
+		B92D1088211CCE9A00734029 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B9D12223210F458400B10566 /* ArtistFeedViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B92D1089211CCEA000734029 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B92D108B211CCEC800734029 /* VenueFeed */ = {
+			isa = PBXGroup;
+			children = (
+				B92D108F211CCEF700734029 /* ViewModel */,
+				B92D108E211CCEF300734029 /* View */,
+			);
+			path = VenueFeed;
+			sourceTree = "<group>";
+		};
+		B92D108C211CCECF00734029 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		B92D108E211CCEF300734029 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B916E493210FAE330071D016 /* VenueFeedViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B92D108F211CCEF700734029 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B92D1090211CCF0300734029 /* Shows */ = {
+			isa = PBXGroup;
+			children = (
+				B92D1093211CCF1E00734029 /* ViewModel */,
+				B92D1092211CCF1A00734029 /* View */,
+			);
+			path = Shows;
+			sourceTree = "<group>";
+		};
+		B92D1092211CCF1A00734029 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B92D1081211CC29800734029 /* UpcomingShowsViewController.swift */,
+				B92D1083211CC5DC00734029 /* UpcomingShowCell.swift */,
+				B92D1084211CC5DC00734029 /* UpcomingShowCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B92D1093211CCF1E00734029 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B92D1095211CCF8200734029 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				B9D1221B210F3ED500B10566 /* TabBarController.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		B92D1096211CCF9F00734029 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				B92D1097211CCFA400734029 /* LocalDB */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		B92D1097211CCFA400734029 /* LocalDB */ = {
+			isa = PBXGroup;
+			children = (
+				B92D1098211CCFAE00734029 /* Model */,
+			);
+			path = LocalDB;
+			sourceTree = "<group>";
+		};
+		B92D1098211CCFAE00734029 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B9D12227210F758B00B10566 /* ArtistModel.swift */,
+				B916E481210F80250071D016 /* VenueModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B92D1099211CCFD900734029 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				B9D1221F210F433100B10566 /* FeedCollectionViewCell.swift */,
+				B9D12220210F433100B10566 /* FeedCollectionViewCell.xib */,
+				B92D108B211CCEC800734029 /* VenueFeed */,
+				B92D1087211CCE8C00734029 /* ArtistFeed */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		B92D109A211CCFF000734029 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				B9D121EA210F3A6700B10566 /* AppDelegate.swift */,
+				B9D121EE210F3A6700B10566 /* Main.storyboard */,
+				B9D121F4210F3A6800B10566 /* Assets.xcassets */,
+				B9D121F6210F3A6800B10566 /* LaunchScreen.storyboard */,
+				B9D121F1210F3A6700B10566 /* NebulaLive.xcdatamodeld */,
+				B92D109B211CD00300734029 /* Config.swift */,
+				B9D12225210F756300B10566 /* MockData.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
 		B9D121DE210F3A6600B10566 = {
 			isa = PBXGroup;
 			children = (
@@ -150,24 +289,13 @@
 		B9D121E9210F3A6700B10566 /* NebulaLive */ = {
 			isa = PBXGroup;
 			children = (
-				B9D121EA210F3A6700B10566 /* AppDelegate.swift */,
-				B9D121EC210F3A6700B10566 /* ViewController.swift */,
-				B9D121EE210F3A6700B10566 /* Main.storyboard */,
-				B9D121F4210F3A6800B10566 /* Assets.xcassets */,
-				B9D121F6210F3A6800B10566 /* LaunchScreen.storyboard */,
+				B92D1096211CCF9F00734029 /* Library */,
+				B92D109A211CCFF000734029 /* Support */,
+				B92D1099211CCFD900734029 /* Feed */,
+				B92D1095211CCF8200734029 /* Tabs */,
+				B92D1090211CCF0300734029 /* Shows */,
+				B92D108C211CCECF00734029 /* Profile */,
 				B9D121F9210F3A6800B10566 /* Info.plist */,
-				B9D121F1210F3A6700B10566 /* NebulaLive.xcdatamodeld */,
-				B9D1221B210F3ED500B10566 /* TestTabBarController.swift */,
-				B9D1221F210F433100B10566 /* FeedCollectionViewCell.swift */,
-				B9D12220210F433100B10566 /* FeedCollectionViewCell.xib */,
-				B9D12223210F458400B10566 /* ArtistFeedViewController.swift */,
-				B916E493210FAE330071D016 /* VenueFeedViewController.swift */,
-				B9D12225210F756300B10566 /* MockData.swift */,
-				B9D12227210F758B00B10566 /* ArtistModel.swift */,
-				B916E481210F80250071D016 /* VenueModel.swift */,
-				B92D1081211CC29800734029 /* UpcomingShowsViewController.swift */,
-				B92D1083211CC5DC00734029 /* UpcomingShowCell.swift */,
-				B92D1084211CC5DC00734029 /* UpcomingShowCell.xib */,
 			);
 			path = NebulaLive;
 			sourceTree = "<group>";
@@ -505,14 +633,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9D121ED210F3A6700B10566 /* ViewController.swift in Sources */,
 				B9D12224210F458400B10566 /* ArtistFeedViewController.swift in Sources */,
 				B916E494210FAE330071D016 /* VenueFeedViewController.swift in Sources */,
 				B9D121EB210F3A6700B10566 /* AppDelegate.swift in Sources */,
 				B916E482210F80250071D016 /* VenueModel.swift in Sources */,
 				B9D12221210F433100B10566 /* FeedCollectionViewCell.swift in Sources */,
+				B92D109C211CD00300734029 /* Config.swift in Sources */,
 				B9D12228210F758B00B10566 /* ArtistModel.swift in Sources */,
-				B9D1221C210F3ED500B10566 /* TestTabBarController.swift in Sources */,
+				B9D1221C210F3ED500B10566 /* TabBarController.swift in Sources */,
 				B92D1085211CC5DC00734029 /* UpcomingShowCell.swift in Sources */,
 				B92D1082211CC29800734029 /* UpcomingShowsViewController.swift in Sources */,
 				B9D12226210F756300B10566 /* MockData.swift in Sources */,

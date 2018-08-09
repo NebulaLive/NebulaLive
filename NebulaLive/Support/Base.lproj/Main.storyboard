@@ -453,10 +453,10 @@
             </objects>
             <point key="canvasLocation" x="733" y="1585"/>
         </scene>
-        <!--Test Tab Bar Controller-->
+        <!--Tab Bar Controller-->
         <scene sceneID="bOc-Nc-qPJ">
             <objects>
-                <tabBarController id="ep2-b2-tQ7" customClass="TestTabBarController" customModule="NebulaLive" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController id="ep2-b2-tQ7" customClass="TabBarController" customModule="NebulaLive" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="rSi-5R-8IW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
