@@ -16,6 +16,7 @@ class VenueFeedViewController: UIViewController {
         super.viewDidLoad()
         self.collectionView.register(UINib(nibName: "FeedCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "FeedCell")
         self.collectionView.dataSource = self
+        self.collectionView.delegate = self
         let layout = UICollectionViewFlowLayout()
         layout.itemSize = CGSize(width: self.collectionView.bounds.size.width, height: 130)
         self.collectionView.setCollectionViewLayout(layout, animated: false)
@@ -35,5 +36,12 @@ extension VenueFeedViewController: UICollectionViewDataSource {
             return cell
         }
         return UICollectionViewCell()
+    }
+}
+
+extension VenueFeedViewController: UICollectionViewDelegate {
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let vc = ModalProfileViewController()
+        self.present(vc, animated: true, completion: nil)
     }
 }
