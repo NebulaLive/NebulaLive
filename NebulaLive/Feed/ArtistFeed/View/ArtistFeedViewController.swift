@@ -24,7 +24,8 @@ class ArtistFeedViewController: UIViewController {
 
 extension ArtistFeedViewController: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        
+        let vc = ModalProfileViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 }
 

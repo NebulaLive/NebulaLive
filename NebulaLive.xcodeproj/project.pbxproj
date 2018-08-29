@@ -30,6 +30,8 @@
 		B9FC0EF2212DD9E900AFFF25 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FC0EF1212DD9E800AFFF25 /* ProfileViewController.swift */; };
 		B9FC0EF5212DDDA700AFFF25 /* ModalProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FC0EF3212DDDA700AFFF25 /* ModalProfileViewController.swift */; };
 		B9FC0EF6212DDDA700AFFF25 /* ModalProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9FC0EF4212DDDA700AFFF25 /* ModalProfileViewController.xib */; };
+		B9FC0EF9213748DC00AFFF25 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FC0EF7213748DC00AFFF25 /* FilterViewController.swift */; };
+		B9FC0EFA213748DC00AFFF25 /* FilterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9FC0EF8213748DC00AFFF25 /* FilterViewController.xib */; };
 		BB384D4C9D523A816B38E47C /* Pods_NebulaLiveUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37EA849071EB98B9FD01866B /* Pods_NebulaLiveUITests.framework */; };
 		F47B8D87BC7F7DFB027F6495 /* Pods_NebulaLive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5274E36423C9B66976B7263 /* Pods_NebulaLive.framework */; };
 /* End PBXBuildFile section */
@@ -96,6 +98,8 @@
 		B9FC0EF1212DD9E800AFFF25 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		B9FC0EF3212DDDA700AFFF25 /* ModalProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalProfileViewController.swift; sourceTree = "<group>"; };
 		B9FC0EF4212DDDA700AFFF25 /* ModalProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModalProfileViewController.xib; sourceTree = "<group>"; };
+		B9FC0EF7213748DC00AFFF25 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		B9FC0EF8213748DC00AFFF25 /* FilterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilterViewController.xib; sourceTree = "<group>"; };
 		C736CD94676C1ECD5580C132 /* Pods-NebulaLiveUITests.beta debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NebulaLiveUITests.beta debug.xcconfig"; path = "Pods/Target Support Files/Pods-NebulaLiveUITests/Pods-NebulaLiveUITests.beta debug.xcconfig"; sourceTree = "<group>"; };
 		D34B99AB97E84AC81653A0B6 /* Pods-NebulaLive.beta release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NebulaLive.beta release.xcconfig"; path = "Pods/Target Support Files/Pods-NebulaLive/Pods-NebulaLive.beta release.xcconfig"; sourceTree = "<group>"; };
 		DA4EF037156FDF07DF0E8333 /* Pods-NebulaLiveUITests.production release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NebulaLiveUITests.production release.xcconfig"; path = "Pods/Target Support Files/Pods-NebulaLiveUITests/Pods-NebulaLiveUITests.production release.xcconfig"; sourceTree = "<group>"; };
@@ -144,6 +148,8 @@
 			isa = PBXGroup;
 			children = (
 				B9D12223210F458400B10566 /* ArtistFeedViewController.swift */,
+				B9FC0EF7213748DC00AFFF25 /* FilterViewController.swift */,
+				B9FC0EF8213748DC00AFFF25 /* FilterViewController.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -475,6 +481,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9FC0EFA213748DC00AFFF25 /* FilterViewController.xib in Resources */,
 				B92D1086211CC5DC00734029 /* UpcomingShowCell.xib in Resources */,
 				B9D121F8210F3A6800B10566 /* LaunchScreen.storyboard in Resources */,
 				B9FC0EF6212DDDA700AFFF25 /* ModalProfileViewController.xib in Resources */,
@@ -652,6 +659,7 @@
 				B9D12228210F758B00B10566 /* ArtistModel.swift in Sources */,
 				B9D1221C210F3ED500B10566 /* TabBarController.swift in Sources */,
 				B92D1085211CC5DC00734029 /* UpcomingShowCell.swift in Sources */,
+				B9FC0EF9213748DC00AFFF25 /* FilterViewController.swift in Sources */,
 				B92D1082211CC29800734029 /* UpcomingShowsViewController.swift in Sources */,
 				B9FC0EF5212DDDA700AFFF25 /* ModalProfileViewController.swift in Sources */,
 				B9FC0EF2212DD9E900AFFF25 /* ProfileViewController.swift in Sources */,
