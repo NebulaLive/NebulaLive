@@ -9,6 +9,8 @@
 import UIKit
 
 class ModalProfileViewController: UIViewController {
+    
+    
     @IBOutlet var scrollView: UIScrollView!
     
     override func viewDidLoad() {
@@ -17,20 +19,28 @@ class ModalProfileViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    override func awakeFromNib() {
+        super.awakeFromNib()
+    }
     override var prefersStatusBarHidden: Bool {
         return true
     }
 
+    @IBAction func goBack(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
+    }
+    
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-        self.scrollView.contentSize = CGSize(width: Config.Screen.width, height: 753 - 20)
+        self.scrollView.contentSize = CGSize(width: Config.Screen.width, height: 803 - 20)
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-
+   
+    
     /*
     // MARK: - Navigation
 

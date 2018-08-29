@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ep2-b2-tQ7">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sHg-Sf-voh">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -119,7 +119,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="733.60000000000002" y="-564.46776611694156"/>
+            <point key="canvasLocation" x="1672.8" y="-564.46776611694156"/>
         </scene>
         <!--Upcoming Shows View Controller-->
         <scene sceneID="0Ja-DW-0E5">
@@ -313,10 +313,27 @@
             </objects>
             <point key="canvasLocation" x="733" y="1585"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="fwF-KA-1gq">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="sHg-Sf-voh" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="UEk-hA-EjB">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ep2-b2-tQ7" kind="relationship" relationship="rootViewController" id="Vum-xN-gTM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4nM-JE-q1e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1292" y="-153"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="bOc-Nc-qPJ">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Suf-4e-iG3" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tabBarController id="ep2-b2-tQ7" customClass="TabBarController" customModule="NebulaLive" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="nsx-Zf-gf1"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="rSi-5R-8IW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -331,7 +348,6 @@
                         <segue destination="KOL-JS-FSJ" kind="relationship" relationship="viewControllers" id="SYH-R3-UCY"/>
                     </connections>
                 </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Suf-4e-iG3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-179" y="-153"/>
         </scene>
@@ -367,7 +383,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 Hour Set - Original Setlist" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HZI-Vd-GKT">
-                                                <rect key="frame" x="24" y="533" width="253" height="40"/>
+                                                <rect key="frame" x="24" y="539.5" width="253" height="27"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="gn7-DI-5B1"/>
                                                 </constraints>
@@ -391,7 +407,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2 Hour Set  + 15 min break - Original Setlist" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oZg-kB-7Wu">
-                                                <rect key="frame" x="24" y="581" width="252" height="32"/>
+                                                <rect key="frame" x="24" y="574.5" width="252" height="45"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="45" id="Xck-y9-ZJ5"/>
                                                 </constraints>
@@ -415,7 +431,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xkV-FD-pnf">
-                                                <rect key="frame" x="0.0" y="645" width="375" height="46"/>
+                                                <rect key="frame" x="0.0" y="651.5" width="375" height="46"/>
                                                 <color key="backgroundColor" red="0.84705882352941175" green="0.84705882352941175" blue="0.84705882352941175" alpha="0.20000000000000001" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="46" id="eSq-Ek-Eam"/>
@@ -525,7 +541,7 @@
                                                 </constraints>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ys3-Li-NBE">
-                                                <rect key="frame" x="0.0" y="691" width="375" height="46"/>
+                                                <rect key="frame" x="0.0" y="697.5" width="375" height="46"/>
                                                 <color key="backgroundColor" red="0.84705882352941175" green="0.84705882352941175" blue="0.84705882352941175" alpha="0.20000000000000001" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="46" id="Nzt-me-W31"/>

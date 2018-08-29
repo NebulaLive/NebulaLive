@@ -42,6 +42,7 @@ extension VenueFeedViewController: UICollectionViewDataSource {
 extension VenueFeedViewController: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let vc = ModalProfileViewController()
-        self.present(vc, animated: true, completion: nil)
+        self.navigationController?.pushViewController(vc, animated: true)
+//        self.present(vc, animated: true, completion: nil)
     }
 }
