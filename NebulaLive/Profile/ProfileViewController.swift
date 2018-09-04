@@ -10,10 +10,14 @@ import UIKit
 
 class ProfileViewController: UIViewController {
 
+    @IBOutlet var contentView: UIView!
     @IBOutlet var scrollView: UIScrollView!
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setNeedsStatusBarAppearanceUpdate()
+        self.contentView.translatesAutoresizingMaskIntoConstraints = false
+
+        
         // Do any additional setup after loading the view.
     }
     
@@ -23,7 +27,7 @@ class ProfileViewController: UIViewController {
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-        
-        self.scrollView.contentSize = CGSize(width: Config.Screen.width, height: 753 - 20)
+        self.scrollView.contentSize = CGSize(width: Config.Screen.width, height: 753)
+
     }
 }

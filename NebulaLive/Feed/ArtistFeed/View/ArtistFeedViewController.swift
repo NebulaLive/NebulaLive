@@ -12,6 +12,7 @@ import UIKit
 class ArtistFeedViewController: UIViewController {
     @IBOutlet var collectionView: UICollectionView!
     
+    @IBOutlet var filterButtonView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
         self.collectionView.register(UINib(nibName: "FeedCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "FeedCell")
@@ -19,6 +20,13 @@ class ArtistFeedViewController: UIViewController {
         let layout = UICollectionViewFlowLayout()
         layout.itemSize = CGSize(width: self.collectionView.bounds.size.width, height: 130)
         self.collectionView.setCollectionViewLayout(layout, animated: false)
+        let tap = UITapGestureRecognizer(target: self, action: #selector(filterTapped))
+        self.filterButtonView.addGestureRecognizer(tap)
+    }
+    
+    @objc func filterTapped() {
+        let filterVC = ArtistFilterNavigationController()
+        self.present(filterVC, animated: true, completion: nil)
     }
 }
 

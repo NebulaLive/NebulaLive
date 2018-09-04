@@ -46,7 +46,7 @@
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 Hour Set - Original Setlist" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xIq-Nx-L7D">
-                                    <rect key="frame" x="24" y="533" width="253" height="40"/>
+                                    <rect key="frame" x="24" y="539.5" width="253" height="27"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="40" id="5es-Nm-MjF"/>
                                     </constraints>
@@ -70,7 +70,7 @@
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2 Hour Set  + 15 min break - Original Setlist" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IZg-hy-UOd">
-                                    <rect key="frame" x="24" y="581" width="252" height="32"/>
+                                    <rect key="frame" x="24" y="574.5" width="252" height="45"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="45" id="WSc-pl-Tdw"/>
                                     </constraints>
@@ -94,7 +94,7 @@
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YmS-n9-Z90">
-                                    <rect key="frame" x="0.0" y="645" width="375" height="46"/>
+                                    <rect key="frame" x="0.0" y="651.5" width="375" height="46"/>
                                     <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="0.20000000000000001" colorSpace="calibratedRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="46" id="Gwo-Gm-J4N"/>
@@ -199,7 +199,7 @@
                                     </constraints>
                                 </view>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xFq-qe-Zgo">
-                                    <rect key="frame" x="0.0" y="691" width="375" height="46"/>
+                                    <rect key="frame" x="0.0" y="697.5" width="375" height="46"/>
                                     <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="0.20000000000000001" colorSpace="calibratedRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="46" id="uFc-sq-6Am"/>
@@ -271,7 +271,9 @@
                         </view>
                     </subviews>
                     <constraints>
+                        <constraint firstItem="wB0-QM-G2n" firstAttribute="height" secondItem="QEr-1K-FL7" secondAttribute="height" id="4uc-Q0-BU9"/>
                         <constraint firstItem="wB0-QM-G2n" firstAttribute="leading" secondItem="QEr-1K-FL7" secondAttribute="leading" id="BS2-8j-e2q"/>
+                        <constraint firstItem="wB0-QM-G2n" firstAttribute="width" secondItem="QEr-1K-FL7" secondAttribute="width" id="CAY-Tv-GJM"/>
                         <constraint firstAttribute="trailing" secondItem="wB0-QM-G2n" secondAttribute="trailing" id="EIT-ya-fC7"/>
                         <constraint firstAttribute="bottom" secondItem="wB0-QM-G2n" secondAttribute="bottom" id="Hp1-wz-Lae"/>
                         <constraint firstItem="wB0-QM-G2n" firstAttribute="centerY" secondItem="QEr-1K-FL7" secondAttribute="centerY" id="yAL-KI-6b2"/>

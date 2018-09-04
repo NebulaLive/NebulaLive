@@ -1,5 +1,5 @@
 //
-//  FilterViewController.swift
+//  ArtistFilterViewController.swift
 //  NebulaLive
 //
 //  Created by Kyle Thomas on 29/08/2018.
@@ -8,8 +8,15 @@
 
 import UIKit
 
-class FilterViewController: UIViewController {
+class ArtistFilterViewController: UIViewController {
 
+    @IBAction func editGenre(_ sender: Any) {
+       let vc = GenreFilterViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    @IBAction func tickButtonPressed(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
