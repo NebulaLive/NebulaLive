@@ -169,10 +169,10 @@
 		B92D1088211CCE9A00734029 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B9FC0F07213F126700AFFF25 /* Genre */,
 				B9FC0F182147154300AFFF25 /* Price */,
 				B9FC0F112147134A00AFFF25 /* Rating */,
 				B9FC0F0C21470E4A00AFFF25 /* Location */,
-				B9FC0F07213F126700AFFF25 /* Genre */,
 				B9D12223210F458400B10566 /* ArtistFeedViewController.swift */,
 				B9FC0EF7213748DC00AFFF25 /* ArtistFilterViewController.swift */,
 				B9FC0EF8213748DC00AFFF25 /* ArtistFilterViewController.xib */,

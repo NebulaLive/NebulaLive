@@ -19,7 +19,7 @@
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
                     <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QCr-Of-YJW">
-                        <rect key="frame" x="3" y="0.0" width="321" height="130"/>
+                        <rect key="frame" x="0.0" y="0.0" width="327" height="130"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="redraw" semanticContentAttribute="spatial" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="artist1" translatesAutoresizingMaskIntoConstraints="NO" id="Mng-AJ-NSw">
                                 <rect key="frame" x="0.0" y="0.0" width="130" height="130"/>
@@ -29,13 +29,13 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Hunters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tuB-sE-NWv">
-                                <rect key="frame" x="154" y="16" width="143" height="23"/>
+                                <rect key="frame" x="154" y="16" width="149" height="23"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YgY-Ld-VUY">
-                                <rect key="frame" x="154" y="43" width="143" height="31.5"/>
+                                <rect key="frame" x="154" y="43" width="149" height="31.5"/>
                                 <string key="text">Indie Folk band hailing 
 from Leeds</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
@@ -60,19 +60,9 @@ from Leeds</string>
             </view>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="QCr-Of-YJW" secondAttribute="trailing" id="3Az-rv-ShC"/>
-                <constraint firstAttribute="trailing" secondItem="QCr-Of-YJW" secondAttribute="trailing" constant="1" id="3u2-GJ-AWx"/>
-                <constraint firstAttribute="bottom" secondItem="QCr-Of-YJW" secondAttribute="bottom" constant="3" id="7e6-GK-MRZ"/>
-                <constraint firstItem="QCr-Of-YJW" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="1" id="7hT-aT-dnF"/>
                 <constraint firstAttribute="bottom" secondItem="QCr-Of-YJW" secondAttribute="bottom" id="Ay3-qt-qCh"/>
-                <constraint firstItem="QCr-Of-YJW" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="C09-AW-Xyg"/>
                 <constraint firstItem="QCr-Of-YJW" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="EJ7-8S-SZI"/>
-                <constraint firstAttribute="trailing" secondItem="QCr-Of-YJW" secondAttribute="trailing" id="J8m-Bt-b6G"/>
-                <constraint firstItem="QCr-Of-YJW" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="3" id="QIF-am-hd5"/>
                 <constraint firstItem="QCr-Of-YJW" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Rf1-tk-qdO"/>
-                <constraint firstItem="QCr-Of-YJW" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="1" id="WLe-3o-G2Z"/>
-                <constraint firstItem="QCr-Of-YJW" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="3" id="Xcg-Ak-Ryg"/>
-                <constraint firstAttribute="bottom" secondItem="QCr-Of-YJW" secondAttribute="bottom" constant="1" id="ixj-nj-ggz"/>
-                <constraint firstAttribute="trailing" secondItem="QCr-Of-YJW" secondAttribute="trailing" constant="3" id="oUI-Ep-E7n"/>
                 <constraint firstAttribute="bottom" secondItem="QCr-Of-YJW" secondAttribute="bottom" id="sKK-f2-PvR"/>
                 <constraint firstItem="QCr-Of-YJW" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" identifier="FeedCell" id="xp9-6G-jN8"/>
             </constraints>
