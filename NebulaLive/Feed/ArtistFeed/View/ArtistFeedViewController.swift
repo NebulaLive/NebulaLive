@@ -17,6 +17,7 @@ class ArtistFeedViewController: UIViewController {
         super.viewDidLoad()
         self.collectionView.register(UINib(nibName: "FeedCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "FeedCell")
         self.collectionView.dataSource = self
+        self.collectionView.delegate = self
         let layout = UICollectionViewFlowLayout()
         layout.itemSize = CGSize(width: self.collectionView.bounds.size.width, height: 130)
         self.collectionView.setCollectionViewLayout(layout, animated: false)

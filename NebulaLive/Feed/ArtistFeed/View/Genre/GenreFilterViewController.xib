@@ -37,8 +37,11 @@
                         <constraint firstAttribute="height" constant="15" id="Wqw-7c-aXm"/>
                     </constraints>
                     <state key="normal" image="ic_check"/>
+                    <connections>
+                        <action selector="tickButtonPressed:" destination="-1" eventType="touchUpInside" id="0vJ-mW-oin"/>
+                    </connections>
                 </button>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="SMC-RK-Th2">
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="SMC-RK-Th2">
                     <rect key="frame" x="43" y="125" width="289" height="463"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </tableView>

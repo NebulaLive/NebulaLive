@@ -17,18 +17,30 @@ class ArtistFilterViewController: UIViewController {
     @IBAction func tickButtonPressed(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }
+    @IBAction func editPrice(_ sender: Any) {
+        let vc = PriceFilterViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-
+    @IBAction func editRating(_ sender: Any) {
+        let vc = RatingFilterViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-
+    @IBAction func editLocation(_ sender: Any) {
+        let vc = LocationFilterViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
     /*
     // MARK: - Navigation
 
