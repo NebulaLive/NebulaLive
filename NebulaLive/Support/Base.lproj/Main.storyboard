@@ -277,6 +277,7 @@
                     <tabBarItem key="tabBarItem" title="Venues" image="ic_venue" id="egv-zl-762"/>
                     <connections>
                         <outlet property="collectionView" destination="F6f-By-5Ze" id="Hg9-Zi-lMy"/>
+                        <outlet property="filterButtonView" destination="tHJ-rF-MbV" id="ge9-q4-Ekz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vas-to-Nni" userLabel="First Responder" sceneMemberID="firstResponder"/>

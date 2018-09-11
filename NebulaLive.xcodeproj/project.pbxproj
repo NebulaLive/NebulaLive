@@ -45,6 +45,11 @@
 		B9FC0F1C2147155600AFFF25 /* PriceFilterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9FC0F1A2147155600AFFF25 /* PriceFilterViewController.xib */; };
 		B9FC0F1F21484FCD00AFFF25 /* NetworkManageable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FC0F1E21484FCD00AFFF25 /* NetworkManageable.swift */; };
 		B9FC0F212148519200AFFF25 /* Nebula.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FC0F202148519200AFFF25 /* Nebula.swift */; };
+		B9FC0F2421485C1E00AFFF25 /* VenueFilterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FC0F2221485C1E00AFFF25 /* VenueFilterController.swift */; };
+		B9FC0F2521485C1E00AFFF25 /* VenueFilterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9FC0F2321485C1E00AFFF25 /* VenueFilterController.xib */; };
+		B9FC0F2A21485DAF00AFFF25 /* VenueTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FC0F2821485DAF00AFFF25 /* VenueTypeViewController.swift */; };
+		B9FC0F2B21485DAF00AFFF25 /* VenueTypeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9FC0F2921485DAF00AFFF25 /* VenueTypeViewController.xib */; };
+		B9FC0F2D21485DEB00AFFF25 /* VenueFilterNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FC0F2C21485DEB00AFFF25 /* VenueFilterNavigationController.swift */; };
 		BB384D4C9D523A816B38E47C /* Pods_NebulaLiveUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37EA849071EB98B9FD01866B /* Pods_NebulaLiveUITests.framework */; };
 		F47B8D87BC7F7DFB027F6495 /* Pods_NebulaLive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5274E36423C9B66976B7263 /* Pods_NebulaLive.framework */; };
 /* End PBXBuildFile section */
@@ -126,6 +131,11 @@
 		B9FC0F1A2147155600AFFF25 /* PriceFilterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PriceFilterViewController.xib; sourceTree = "<group>"; };
 		B9FC0F1E21484FCD00AFFF25 /* NetworkManageable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManageable.swift; sourceTree = "<group>"; };
 		B9FC0F202148519200AFFF25 /* Nebula.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nebula.swift; sourceTree = "<group>"; };
+		B9FC0F2221485C1E00AFFF25 /* VenueFilterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueFilterController.swift; sourceTree = "<group>"; };
+		B9FC0F2321485C1E00AFFF25 /* VenueFilterController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VenueFilterController.xib; sourceTree = "<group>"; };
+		B9FC0F2821485DAF00AFFF25 /* VenueTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueTypeViewController.swift; sourceTree = "<group>"; };
+		B9FC0F2921485DAF00AFFF25 /* VenueTypeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VenueTypeViewController.xib; sourceTree = "<group>"; };
+		B9FC0F2C21485DEB00AFFF25 /* VenueFilterNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueFilterNavigationController.swift; sourceTree = "<group>"; };
 		C736CD94676C1ECD5580C132 /* Pods-NebulaLiveUITests.beta debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NebulaLiveUITests.beta debug.xcconfig"; path = "Pods/Target Support Files/Pods-NebulaLiveUITests/Pods-NebulaLiveUITests.beta debug.xcconfig"; sourceTree = "<group>"; };
 		D34B99AB97E84AC81653A0B6 /* Pods-NebulaLive.beta release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NebulaLive.beta release.xcconfig"; path = "Pods/Target Support Files/Pods-NebulaLive/Pods-NebulaLive.beta release.xcconfig"; sourceTree = "<group>"; };
 		DA4EF037156FDF07DF0E8333 /* Pods-NebulaLiveUITests.production release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NebulaLiveUITests.production release.xcconfig"; path = "Pods/Target Support Files/Pods-NebulaLiveUITests/Pods-NebulaLiveUITests.production release.xcconfig"; sourceTree = "<group>"; };
@@ -173,10 +183,6 @@
 		B92D1088211CCE9A00734029 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				B9FC0F07213F126700AFFF25 /* Genre */,
-				B9FC0F182147154300AFFF25 /* Price */,
-				B9FC0F112147134A00AFFF25 /* Rating */,
-				B9FC0F0C21470E4A00AFFF25 /* Location */,
 				B9D12223210F458400B10566 /* ArtistFeedViewController.swift */,
 				B9FC0EF7213748DC00AFFF25 /* ArtistFilterViewController.swift */,
 				B9FC0EF8213748DC00AFFF25 /* ArtistFilterViewController.xib */,
@@ -205,6 +211,9 @@
 			isa = PBXGroup;
 			children = (
 				B916E493210FAE330071D016 /* VenueFeedViewController.swift */,
+				B9FC0F2221485C1E00AFFF25 /* VenueFilterController.swift */,
+				B9FC0F2321485C1E00AFFF25 /* VenueFilterController.xib */,
+				B9FC0F2C21485DEB00AFFF25 /* VenueFilterNavigationController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -326,6 +335,7 @@
 		B9D121E9210F3A6700B10566 /* NebulaLive */ = {
 			isa = PBXGroup;
 			children = (
+				B9FC0F2621485D7200AFFF25 /* Filters */,
 				B9FC0EF0212DD9C800AFFF25 /* Profile */,
 				B92D1096211CCF9F00734029 /* Library */,
 				B92D109A211CCFF000734029 /* Support */,
@@ -410,6 +420,27 @@
 				B9FC0F202148519200AFFF25 /* Nebula.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		B9FC0F2621485D7200AFFF25 /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				B9FC0F2721485D8500AFFF25 /* Type */,
+				B9FC0F07213F126700AFFF25 /* Genre */,
+				B9FC0F182147154300AFFF25 /* Price */,
+				B9FC0F112147134A00AFFF25 /* Rating */,
+				B9FC0F0C21470E4A00AFFF25 /* Location */,
+			);
+			path = Filters;
+			sourceTree = "<group>";
+		};
+		B9FC0F2721485D8500AFFF25 /* Type */ = {
+			isa = PBXGroup;
+			children = (
+				B9FC0F2821485DAF00AFFF25 /* VenueTypeViewController.swift */,
+				B9FC0F2921485DAF00AFFF25 /* VenueTypeViewController.xib */,
+			);
+			path = Type;
 			sourceTree = "<group>";
 		};
 		D485A5E4A111D3571BABA0AD /* Frameworks */ = {
@@ -567,10 +598,12 @@
 				B9FC0F0B213F128700AFFF25 /* GenreTableViewCell.xib in Resources */,
 				B9FC0EF6212DDDA700AFFF25 /* ModalProfileViewController.xib in Resources */,
 				B9FC0F06213F0F4300AFFF25 /* GenreFilterViewController.xib in Resources */,
+				B9FC0F2521485C1E00AFFF25 /* VenueFilterController.xib in Resources */,
 				B9FC0F172147137800AFFF25 /* RatingFilterViewController.xib in Resources */,
 				B9FC0F1021470E6900AFFF25 /* LocationFilterViewController.xib in Resources */,
 				B9D121F5210F3A6800B10566 /* Assets.xcassets in Resources */,
 				B9D12222210F433100B10566 /* FeedCollectionViewCell.xib in Resources */,
+				B9FC0F2B21485DAF00AFFF25 /* VenueTypeViewController.xib in Resources */,
 				B9D121F0210F3A6700B10566 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -734,6 +767,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9FC0F2A21485DAF00AFFF25 /* VenueTypeViewController.swift in Sources */,
 				B9D12224210F458400B10566 /* ArtistFeedViewController.swift in Sources */,
 				B916E494210FAE330071D016 /* VenueFeedViewController.swift in Sources */,
 				B9FC0F02213F0C3400AFFF25 /* ArtistFilterNavigationController.swift in Sources */,
@@ -744,7 +778,9 @@
 				B92D109C211CD00300734029 /* Config.swift in Sources */,
 				B9D12228210F758B00B10566 /* ArtistModel.swift in Sources */,
 				B9FC0F0F21470E6900AFFF25 /* LocationFilterViewController.swift in Sources */,
+				B9FC0F2D21485DEB00AFFF25 /* VenueFilterNavigationController.swift in Sources */,
 				B9FC0F05213F0F4300AFFF25 /* GenreFilterViewController.swift in Sources */,
+				B9FC0F2421485C1E00AFFF25 /* VenueFilterController.swift in Sources */,
 				B9FC0F162147137800AFFF25 /* RatingFilterViewController.swift in Sources */,
 				B9D1221C210F3ED500B10566 /* TabBarController.swift in Sources */,
 				B92D1085211CC5DC00734029 /* UpcomingShowCell.swift in Sources */,
