@@ -43,6 +43,8 @@
 		B9FC0F172147137800AFFF25 /* RatingFilterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9FC0F152147137800AFFF25 /* RatingFilterViewController.xib */; };
 		B9FC0F1B2147155600AFFF25 /* PriceFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FC0F192147155600AFFF25 /* PriceFilterViewController.swift */; };
 		B9FC0F1C2147155600AFFF25 /* PriceFilterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9FC0F1A2147155600AFFF25 /* PriceFilterViewController.xib */; };
+		B9FC0F1F21484FCD00AFFF25 /* NetworkManageable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FC0F1E21484FCD00AFFF25 /* NetworkManageable.swift */; };
+		B9FC0F212148519200AFFF25 /* Nebula.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FC0F202148519200AFFF25 /* Nebula.swift */; };
 		BB384D4C9D523A816B38E47C /* Pods_NebulaLiveUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37EA849071EB98B9FD01866B /* Pods_NebulaLiveUITests.framework */; };
 		F47B8D87BC7F7DFB027F6495 /* Pods_NebulaLive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5274E36423C9B66976B7263 /* Pods_NebulaLive.framework */; };
 /* End PBXBuildFile section */
@@ -122,6 +124,8 @@
 		B9FC0F152147137800AFFF25 /* RatingFilterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RatingFilterViewController.xib; sourceTree = "<group>"; };
 		B9FC0F192147155600AFFF25 /* PriceFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceFilterViewController.swift; sourceTree = "<group>"; };
 		B9FC0F1A2147155600AFFF25 /* PriceFilterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PriceFilterViewController.xib; sourceTree = "<group>"; };
+		B9FC0F1E21484FCD00AFFF25 /* NetworkManageable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManageable.swift; sourceTree = "<group>"; };
+		B9FC0F202148519200AFFF25 /* Nebula.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nebula.swift; sourceTree = "<group>"; };
 		C736CD94676C1ECD5580C132 /* Pods-NebulaLiveUITests.beta debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NebulaLiveUITests.beta debug.xcconfig"; path = "Pods/Target Support Files/Pods-NebulaLiveUITests/Pods-NebulaLiveUITests.beta debug.xcconfig"; sourceTree = "<group>"; };
 		D34B99AB97E84AC81653A0B6 /* Pods-NebulaLive.beta release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NebulaLive.beta release.xcconfig"; path = "Pods/Target Support Files/Pods-NebulaLive/Pods-NebulaLive.beta release.xcconfig"; sourceTree = "<group>"; };
 		DA4EF037156FDF07DF0E8333 /* Pods-NebulaLiveUITests.production release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NebulaLiveUITests.production release.xcconfig"; path = "Pods/Target Support Files/Pods-NebulaLiveUITests/Pods-NebulaLiveUITests.production release.xcconfig"; sourceTree = "<group>"; };
@@ -249,6 +253,7 @@
 		B92D1096211CCF9F00734029 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				B9FC0F1D21484FBD00AFFF25 /* Network */,
 				B92D1097211CCFA400734029 /* LocalDB */,
 			);
 			path = Library;
@@ -396,6 +401,15 @@
 				B9FC0F1A2147155600AFFF25 /* PriceFilterViewController.xib */,
 			);
 			path = Price;
+			sourceTree = "<group>";
+		};
+		B9FC0F1D21484FBD00AFFF25 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B9FC0F1E21484FCD00AFFF25 /* NetworkManageable.swift */,
+				B9FC0F202148519200AFFF25 /* Nebula.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		D485A5E4A111D3571BABA0AD /* Frameworks */ = {
@@ -723,6 +737,7 @@
 				B9D12224210F458400B10566 /* ArtistFeedViewController.swift in Sources */,
 				B916E494210FAE330071D016 /* VenueFeedViewController.swift in Sources */,
 				B9FC0F02213F0C3400AFFF25 /* ArtistFilterNavigationController.swift in Sources */,
+				B9FC0F1F21484FCD00AFFF25 /* NetworkManageable.swift in Sources */,
 				B9D121EB210F3A6700B10566 /* AppDelegate.swift in Sources */,
 				B916E482210F80250071D016 /* VenueModel.swift in Sources */,
 				B9D12221210F433100B10566 /* FeedCollectionViewCell.swift in Sources */,
@@ -741,6 +756,7 @@
 				B9D121F3210F3A6700B10566 /* NebulaLive.xcdatamodeld in Sources */,
 				B9FC0F1B2147155600AFFF25 /* PriceFilterViewController.swift in Sources */,
 				B9FC0F0A213F128700AFFF25 /* GenreTableViewCell.swift in Sources */,
+				B9FC0F212148519200AFFF25 /* Nebula.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

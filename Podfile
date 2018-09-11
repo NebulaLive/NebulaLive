@@ -7,6 +7,11 @@ target 'NebulaLive' do
 
   # Pods for NebulaLive
 	pod 'RealmSwift'
+    pod 'RxSwift', '~> 4'
+    pod 'RxKeyboard'
+    pod 'Moya/RxSwift'
+    pod 'Moya-ObjectMapper/RxSwift'
+    
   target 'NebulaLiveTests' do
     inherit! :search_paths
     # Pods for testing
